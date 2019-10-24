@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ryan Mauldin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+
+  <script>
+    function email() {
+      var username = "ryant.mauldin",
+          domain = "gmail.com";
+      window.location.href = "mailto:" + username + "@" + domain;
+    }
+  </script>
+
+  <body>
+    <!-- Home section -->
+    <div class="jumbotron paral paralsec1 vertical-center">
+      <div class="container">
+        <img src='img/chicago_me.jpg' class="home-image" />
+        <h1 class="display-1"><b>Ryan Mauldin</b></h1>
+        <div class="row">
+          <div class="col text-center prim-nav">
+            <a href="#resume"><button class="btn btn-default">Resume</button></a>
+            <a href="#about"><button class="btn btn-default">About</button></a>
+            <a href="" onclick="email()"><button class="btn btn-default">Contact</button></a>
+            <a href="http://linkedin.com/in/ryantmauldin"><button class="btn btn-default">LinkedIn</button></a>
+            <a href="http://github.com/rmauldin"><button class="btn btn-default">Github</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Resume section -->
+
+    <!-- Projects -->
+    <div class="container">
+      <a id="resume"></a>
+      <h1 class="display-5 text-center">
+        <b>Featured Projects</b>
+        <hr />
+      </h1>
+      <div class="row justify-content-center">
+      <!---->
+       <div class="col-lg-3 col-md-6 col-sm-6 cl-xs-12">
+          <div class="project-box" type="button" data-toggle="collapse" 
+               data-target="#collapsebox1" aria-expanded="false" aria-controls="collapsebox1">
+            <figure>
+                <h5 class="h5"><b>LensRSS</b></h5>
+                <h6 class="h6">Personal Project</h6>
+                <button class="btn">Read More</button>
+            </figure>
+            <img src="img/lensrss-200.jpg" class="img-responsive"/>
+          </div>
+          <div class="collapse in" id="collapsebox1">
+            <div class="container project-content">
+             A news aggregator on the Google Play store that pulls articles from RSS feeds. Using a Keras machine learning model, articles are analyzed for their political leaning, subjectivity, and polarity. The aggregator sends each chosen article to the model hosted on a Flask server deployed with Heroku. <a href="https://play.google.com/store/apps/details?id=com.lensrss.ryan.newsviewer&hl=en_CA">Google Play</a> | <a href="https://github.com/Rmauldin/LensRSS">Github</a>
+            </div>
+          </div>
+        </div> 
+        <!---->
+        <div class="col-lg-3 col-md-6 col-sm-6 cl-xs-12">
+          <div class="project-box" type="button" data-toggle="collapse" 
+               data-target="#collapsebox2" aria-expanded="false" aria-controls="collapsebox2">
+            <figure>
+              <h5 class="h5"><b>Indeed Scraper</b></h5>
+              <h6 class="h6">Personal Project</h6>
+              <button class="btn">Read More</button>
+            </figure>
+            <img src="img/Indeedlogo.jpg" class="img-responsive"/>
+          </div>
+          <div class="collapse in" id="collapsebox2">
+            <div class="container project-content">
+              A Python library module that scrapes results from an Indeed.com search. Javascript is rendered using Selenium and scraped with the help of BeautifulSoup. Returns a list of dictionaries. <a href="https://github.com/Rmauldin/Jobsearch">Github</a>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="col-lg-3 col-md-6 col-sm-6 cl-xs-12">
+          <div class="project-box" type="button" data-toggle="collapse" 
+               data-target="#collapsebox3" aria-expanded="false" aria-controls="collapsebox3">
+            <figure>
+              <h5 class="h5"><b>Twitter Bot</b></h5>
+              <h6 class="h6">Personal Project</h6>
+              <button class="btn">Read More</button>
+            </figure>
+            <img src="img/twitter_screenshot.jpg" class="img-responsive"/>
+          </div>
+          <div class="collapse in" id="collapsebox3">
+            <div class="container project-content">
+              An automated bot that posts quotes once a week. Using the Python library Tweepy, the script pulls from a database of quotes and posts the oldest used quote. The account is under the persona "Kreia" from the video game "Knights of the Old Republic 2". Hosted using PythonAnywhere. <a href="https://twitter.com/CrypticKreia">Twitter</a>
+            </div>
+          </div>
+        </div>
+        <!---->
+        <div class="col-lg-3 col-md-6 col-sm-6 cl-xs-12">
+          <div class="project-box" type="button" data-toggle="collapse" 
+               data-target="#collapsebox4" aria-expanded="false" aria-controls="collapsebox4">
+            <figure>
+              <h5 class="h5"><b>Discord Bot</b></h5>
+              <h6 class="h6">Personal Project</h6>
+              <button class="btn">Read More</button>
+            </figure>
+            <img src="img/discordbot_screenshot.jpg" class="img-responsive"/>
+          </div>
+          <div class="collapse in" id="collapsebox4">
+            <div class="container project-content">
+              Build with the Python library discord.py, this bot tracks Discord chat analytics and provides information via chat commands. The bot can provide graphs for users' custom emoji usage, and most and least used emojis. Using SQLite, the bot can support tracking multiple Discord servers' chats. <a href="https://github.com/Rmauldin/discord_analytics">Github</a>
+            </div>
+          </div>
+        </div>
+        <!---->
+      </div> <!-- row -->
+
+      <div class="separator"></div>
+    </div>
+    
+    <!-- Core Strengths -->
+    <div class="container">
+    	<h1 class = "display-5 text-center">
+    		<b>Core Strengths</b>
+    		<hr />
+    	</h1>
+    	<div class="row no-gutters justify-content-center">
+    		<div class="col-6">
+    			<ul>
+    				<li class="h5">Technical and Analytical</li>
+    				<hr />
+    				<li class="h5">Strong understanding of algorithms, data structures, and object oriented programming</li>
+    				<hr />
+    				<li class="h5">Passionate about learning and implementing new ideas</li>
+    			</ul>
+    		</div>
+    		<div class="col-6">
+    			<ul>
+    				<li class="h5">Adaptable to a variety of projects to see them through to completion</li>
+    				<hr />
+    				<li class="h5">Effective on a team or independent</li>
+    				<hr />
+    				<li class="h5">Strong work ethic, integrity driven, and reliable</li>
+    			</ul>
+    		</div>
+    	</div>
+    	<div class="separator"></div>
+    </div>
+
+    <!-- Experience -->
+    <div class="container experience">
+      <!-- Work exp and education -->
+      <div class="row justify-content-start">
+        <div class="col-lg-7">
+          <h1 class="display-5 text-left">
+            <b>Work Experience</b>
+            <hr />
+          </h1>
+          <div class="row no-gutters">
+            <div class="col-2">
+              <a href="http://aptosprint.com/">
+                <img src="img/printsmith.jpg" alt="Print Smith" class="rounded float-right logo-img"/>
+              </a>
+            </div>
+            <div class="col-5 text-left">
+              <h4 class="h4">Print Smith Inc.</h4>
+              <h6 class="h6"><b>Print Clerk</b></h6>
+            </div>
+            <div class="col text-right">
+              <h4 class="h4">Aptos, CA</h4>
+              <h6 class="h6">May 2015 - Sept. 2017</h6>
+            </div>
+          </div>
+          <p> </p>
+          <div class="row no-gutters">
+            <div class="col-2">
+              <a href="http://mauldincocpa.com/">
+                <img src="img/mauldin_square.png" alt="Mauldin & Co" class="rounded float-right logo-img"/>
+              </a>
+            </div>
+            <div class="col-5 text-left">
+              <h4 class="h4">Mauldin & Company</h4>
+              <h6 class="h6"><b>Web Developer</b></h6>
+            </div>
+            <div class="col text-right">
+              <h4 class="h4">Capitola, CA</h4>
+              <h6 class="h6">Feb. 2015</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <h1 class="display-5 text-left">
+            <b>Education</b>
+            <hr />
+          </h1>
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://uci.edu/">
+                <img src="img/uci.png" alt="UCI" class="rounded float-left logo-img"/>
+              </a>
+              <h4 class="h4">University of California Irvine</h4>
+              <div class="row no-gutters">
+                <p class="col-7">B.S in Computer Science</p>
+                <p class="col-5">2017-2019</p>
+              </div>
+            </li>
+            <li>
+              <a href="https://www.cabrillo.edu/">
+                <img src="img/cabrillo.jpg" alt="Cabrillo" class="rounded float-left logo-img"/>
+              </a>
+              <h4 class="h4">Cabrillo College</h4>
+              <div class="row no-gutters">
+                <p class="col-7">A.S in Computer Science</p>
+                <p class="col-5">2014-2017</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div> <!-- row -->
+      <div class="row skills">
+        <div class="col-lg-6">
+          <h1 class="display-5 text-left"><b>
+            Languages
+          </b></h1>
+          <hr />
+          <div class="row no-gutters justify-content-start">
+            <div class="col-6">
+              <ul class="list-group">
+                <li class="list-group-item"><p class="h4">Java</p></li>
+                <li class="list-group-item"><p class="h4">C++</p></li>
+                <li class="list-group-item"><p class="h4">Python</p></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="list-group">
+                <li class="list-group-item"><p class="h4">C</p></li>
+                <li class="list-group-item"><p class="h4">SQL</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 text-left"><b>
+            Technologies
+          </b></h1>
+          <hr />
+          <div class="row no-gutters justify-content-start">
+            <div class="col-6">
+              <ul class="list-group">
+                <li class="list-group-item"><p class="h4">Linux Environments</p></li>
+                <li class="list-group-item"><p class="h4">Android Studio</p></li>
+                <li class="list-group-item"><p class="h4">Git</p></li>
+                <li class="list-group-item"><p class="h4">Flask</p></li>
+                <li class="list-group-item"><p class="h4">Pytorch</p></li>
+              </ul>
+            </div>
+            <div class="col-6">
+              <ul class="list-group">
+                <li class="list-group-item"><p class="h4">Scrapy</p></li>
+                <li class="list-group-item"><p class="h4">Numpy</p></li>
+                <li class="list-group-item"><p class="h4">Pandas</p></li>
+                <li class="list-group-item"><p class="h4">Matplotlib</p></li>
+                <li class="list-group-item"><p class="h4">Keras</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="row justify-content-center">
+      <a href="https://docs.google.com/document/d/1REq0ELsKudHQ3rIkEf3QfUN8Pok1Jm4ONGDAVnG3P_U/export?format=pdf" download>
+        <button type="button" class="btn btn-primary btn-sm btn-dark">
+          Download Full Resume
+        </button>
+      </a>
+    </div>
+    </div> <!-- experience -->
+    
+    </div> <!-- container -->
+    <div class="jumbotron paral paralsec3"></div>
+    <div class="container about">
+      <a id="about"></a>
+      <div class="display-2 text-center" style="margin-bottom: 10px">About Me</div>
+      <div class="row align-items-center no-gutters">  
+        <div class="col-lg-9 justify-content-start">
+          <p class="lead text-left">Hello, I'm Ryan.</p>
+          <p>
+            I'm a recent college graduate from UCI currently living in the Bay Area. Ever since I was old enough to play video games, I have had an interest in technology. Since then, I have refined my interest to three main areas: automation, mobile development, and data engineering. Going forward, I would like to pursue a position as an entry-level software engineer with a company that will foster professional growth in one or all of these areas.
+          </p>
+          <p>
+            Feel free to contact me!
+          </p>
+        </div>
+        <div class="col-lg-3 justify-content-end">
+          <img src="img/meandtobes.jpg" alt="My dog and I" class="about-img float-right rounded" />
+        </div>
+      </div>
+      <div class="separator"></div>
+    </div> <!-- about container -->
+    <div class="page-footer">
+      <div class="container-fluid text-center foot">
+        <ul class="list-inline pt-3">
+          <li class="list-inline-item"><a href="">Home</a></li>
+          <li class="list-inline-item"><a href="#resume">Resume</a></li>
+          <li class="list-inline-item"><a href="#about">About</a></li>
+          <li class="list-inline-item"><a href="" onclick="email()">Contact</a></li>
+          <li class="list-inline-item"><a href="http://linkedin.com/in/ryantmauldin">LinkedIn</a></li>
+          <li class="list-inline-item"><a href="http://github.com/rmauldin">Github</a></li>
+        </ul>
+        <div class="footer-copyright text-center pb-2">© 2019 Copyright: Ryan Mauldin</div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  </body>
+
+<html>

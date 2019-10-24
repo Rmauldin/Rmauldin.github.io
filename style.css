@@ -1,0 +1,212 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.paral {
+  /*min-height: 100%;*/
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  text-align: center;
+}
+
+.paral h1{
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 2.5s; /* Firefox < 16 */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+     -o-animation: fadein 2.5s; /* Opera < 12.1 */
+        animation: fadein 2.5s;
+}
+
+.paralsec1 {
+  background-image: url("img/mrpurple_bw.jpg");
+}
+
+.paralsec2 {
+  background-image: url("img/dtdisney.jpg");
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  height: 50vh;
+}
+
+.paralsec3 {
+  background-image: url("img/dtdisney.jpg");
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  height: 50vh;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{margin-bottom: 0;}
+
+.home-image {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+  border-radius: 50%;
+  width: 200px;
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 2.5s; /* Firefox < 16 */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+     -o-animation: fadein 2.5s; /* Opera < 12.1 */
+        animation: fadein 2.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.prim-nav {
+  padding: 0;
+  margin: 0;
+}
+.prim-nav button{
+  font: Roboto;
+  font-size: 2em;
+  line-height: .7em;
+  align-items: center;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 2.5s; /* Firefox < 16 */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+     -o-animation: fadein 2.5s; /* Opera < 12.1 */
+        animation: fadein 2.5s;
+}
+.prim-nav button:hover {
+  background-color: black;
+  color: white;
+}
+
+.project-box{
+    height: 250px;
+    width: 250px;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: 25px;
+    border-radius: 5%;
+}
+.project-box figure {
+    position: absolute;
+    text-align: center;
+    padding: 19px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    transition: ease-in-out .5s;
+    -webkit-transition: ease-in-out .5s;
+    -moz-transition: ease-in-out .5s;
+    z-index: 2;
+}
+.project-box h5{
+  margin-top: 20%;
+}
+.project-box button {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+  margin: 5px;
+  transition: ease-in-out .5s;
+  -webkit-transition: ease-in-out .5s;
+  -moz-transition: ease-in-out .5s;
+}
+.project-box figure:hover button{
+  background-color: #fff;
+  color: #000;
+}
+.project-box img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: .3;
+    transition: ease-in-out .5s;
+    -webkit-transition: ease-in-out .5s;
+    -moz-transition: ease-in-out .5s;
+    z-index: 1;
+}
+.project-box:hover img{
+    opacity: .1;
+}
+
+.project-content{
+  background-color: #eee;
+  padding: 15px;
+}
+
+.separator{
+  height: 50px;
+}
+
+.experience{
+  padding: 5px;
+  margin-bottom: 40px;
+}
+
+.experience li{
+  padding: 5px;
+}
+
+.logo-img{
+  height: 65px;
+  width: 65px;
+  margin-right: 10px;
+}
+
+.skills {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+.about-img {
+  width: 230px;\
+  height: auto;
+}
+
+.foot {
+  background-color: black;
+}
+
+.foot div{
+  color: white;
+}
