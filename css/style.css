@@ -64,7 +64,7 @@ p {
 img {
   font-family: 'Roboto Mono', monospace;
   font-weight: 500;
-  font-size: 12pt;
+  font-size: 1em;
 }
 
 .navigation li {
@@ -95,7 +95,7 @@ a:hover {
   line-height: .3em;
   padding: .3em;
   color: var(--orange);
-  font-size: 18pt;
+  font-size: 1.5em;
   font-family: 'Roboto', sans-serif;
   font-style: bold;
 }
@@ -144,7 +144,7 @@ a:hover {
 }
 
 .name h1 {
-  font-size: 45pt;
+  font-size: 3.75em;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
@@ -155,7 +155,7 @@ a:hover {
 .name h3 {
   font-family: "Roboto Mono", monospace;
   font-weight: 500;
-  font-size: 18pt;
+  font-size: 1.5em;
   padding: .2em;
 }
 
@@ -169,7 +169,8 @@ a:hover {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  height: 95vh;
+  min-height: 95vh;
+  margin-bottom: 12em;
 }
 .work .block{
   display: flex;
@@ -180,13 +181,13 @@ a:hover {
 
 .work h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 27pt;
+  font-size: 2.25em;
   align-self: flex-start;
   margin-bottom: 40px;
 }
 
 .work h3 {
-  font-size: 15pt;
+  font-size: 1.25em;
   font-family: 'Roboto Mono', monospace;
   align-self: flex-start;
   margin-bottom: 10px;
@@ -201,7 +202,7 @@ a:hover {
 
 .work li p {
   font-family: 'Roboto', 'sans-serif';
-  font-size: 12pt;
+  font-size: 1em;
   width: 100%;
 }
 
@@ -214,18 +215,18 @@ a:hover {
   content: "";
   color: var(--orange);
   display: inline-block;
-  width: 2pt;
-  margin-left: -15pt;
-  margin-bottom: -13pt;
-  height: 6pt;
-  width: 6pt;
-  border-right: 2.2pt solid var(--orange);
-  border-bottom: 2.2pt solid var(--orange);
+  width: .1667em;
+  margin-left: -1.25em;
+  margin-bottom: -1.083em;
+  height: .5em;
+  width: .5em;
+  border-right: .1833em solid var(--orange);
+  border-bottom: .1833em solid var(--orange);
   transform: rotate(-45deg);
 }
 .subheader {
   font-family: 'Roboto Mono', monospace;
-  font-size: 10.5pt;
+  font-size: .875em;
   align-self: flex-start;
   opacity: 40%;
 }
@@ -245,11 +246,12 @@ a:hover {
   flex-flow: column nowrap;
   justify-content: center;
   height: 95vh;
+  min-height: fit-content;
 }
 
 .projects h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 27pt;
+  font-size: 2.25em;
   margin-bottom: 40px;
   width: 100%;
   text-align: center;
@@ -260,16 +262,19 @@ a:hover {
 .project-cards {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .card {
-  padding: 30px;
+  padding: 25px;
   margin: 7px;
+  padding-bottom: 10px;
   flex: 0 17%;
+  min-width: 215px;
+  min-height: 215px;
   background-color: var(--light-green);
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   align-items: baseline;
 }
 
@@ -277,7 +282,7 @@ a:hover {
   align-self: flex-start;
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
-  font-size: 13.5pt;
+  font-size: 1.125em;
   color: var(--orange);
   width: 100%;
   text-align: center;
@@ -287,18 +292,60 @@ a:hover {
 
 .card p{
   font-family: "Roboto", sans-serif;
-  font-size: 11pt;
+  font-size: .9167em;
   font-weight: 400;
+  height: 100%;
 }
 
 .card .skill-list{
   list-style: none;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  width: 100%;
+  justify-content: space-around;
+  align-content: flex-end;
+}
+.card .skill-list li{
+  margin-top: 0.9167em;
+  margin-bottom: 0.9167em;
 }
 
-/* .card .skill-list li{
-  margin-top: 11pt;
-  margin-bottom: 11pt;
-} */
+.card .links{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  align-self: flex-end;
+}
+
+.card .links a{
+  margin: 5px;
+  opacity: .7;
+}
+.card .links a img{
+  width: 25px;
+  height: 25px;
+}
+.card .links a:hover{
+  color: var(--white);
+  opacity: 1;
+}
+
+.about {
+
+}
+
+.about h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.25em;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: left;
+}
+
+.about img {
+  width: 20em;
+  height: 20em;
+  box-shadow: -25px 25px 0 var(--light-green);
+}
