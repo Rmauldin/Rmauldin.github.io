@@ -1,0 +1,14 @@
+<div class="container">
+  <h2 class="section-title">Work Experience</h2>
+  {% for work in site.data.work %}
+    <div>
+      <h3 class="work-title">{{ work.title }} @ <span class="text-highlight">{{ work.company }}</span></h3>
+      <p class="lead work-time">{{ work.time }}</p>
+      <ul class="list-unstyled duties-list">
+        {% for duty in work.duties %}
+          <li><p>{{ duty.duty }}</p></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endfor %}
+</div>

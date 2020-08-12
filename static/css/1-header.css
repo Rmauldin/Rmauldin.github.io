@@ -1,0 +1,29 @@
+#logo{
+    border: .1em solid var(--orange-c);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    line-height: 1em;
+    padding: .4em;
+    color: var(--orange-c);
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-style: bold;
+}
+#logo:hover{
+    color: var(--white-c);
+    border-color: var(--white-c);
+}
+#bootstrap-override .nav-item{
+    color: var(--white-c);
+    margin-left: 1.2em;
+    margin-right: 1.2em;
+}
+#bootstrap-override .nav-item:hover{
+    color: var(--orange-c);
+}
+.icon{
+    width: 1.5em;
+    height: 1.5em;
+}

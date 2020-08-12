@@ -1,0 +1,23 @@
+.arrow {
+    border-right: .2em solid var(--white-c);
+    border-bottom: .2em solid var(--white-c);
+    transform: rotate(-45deg);
+}
+.down {
+    transform: rotate(45deg);
+    width: 2em;
+    height: 2em;
+    position: relative;
+}
+#name{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 3.75rem;
+    color: var(--orange-c);
+    margin-top: 25%;
+}
+#title{
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}

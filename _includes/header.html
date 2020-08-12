@@ -1,1 +1,22 @@
-<h1>header</h1>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a id="logo" class="navbar-brand" href="/">RM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                {% for nav-item in site.data.nav-external %}
+                    <a class="nav-item nav-link" href={{ nav-item.link }}>
+                        <img class="icon" alt={{ nav-item.title }} src="static/icons/{{ nav-item.icon }}" />
+                    </a>
+                {% endfor %}
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                {% for nav-item in site.data.nav-internal %}
+                    <a class="nav-item nav-link" href={{ nav-item.link }}>{{ nav-item.title }}</a>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+</header>

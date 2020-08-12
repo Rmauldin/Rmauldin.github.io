@@ -1,0 +1,40 @@
+.work-title{
+    width: 100%;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    font-size: 1.3125rem;
+}
+.work-time{
+    font-family: "Roboto Mono", sans-serif;
+    font-size: 0.875rem;
+    color: var(--gray-c);
+    margin-bottom: 0;
+}
+.duties-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.duties-list li{
+    line-height: 1.25;
+}
+.duties-list li p{
+    font-family: "Roboto", monospace;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 0;
+}
+.duties-list li::before{
+    content: "";
+    color: var(--orange-c);
+    display: inline-block;
+    width: .1667rem;
+    margin-left: -1.8rem;
+    margin-bottom: -1.1rem;
+    height: .5rem;
+    width: .5rem;
+    border-right: .1833rem solid var(--orange);
+    border-bottom: .1833rem solid var(--orange);
+    transform: rotate(-45deg);
+}
