@@ -1,0 +1,23 @@
+.card{
+    background-color: var(--green-c);
+    border-radius: 0;
+    padding: 5%;
+}
+.card * {
+    margin: 0.3125rem;
+    margin-bottom: 0.625rem;
+    background-color: var(--green-c);
+    padding: 0;
+}
+.card h3 {
+    font-family: "Roboto Mono";
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-align: center;
+    color: var(--orange-c);
+}
+.card ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}

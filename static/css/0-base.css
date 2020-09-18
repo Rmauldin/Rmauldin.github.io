@@ -1,10 +1,11 @@
 :root{
+    /* Colors */
     --dark-green-c: #01261B;
     --white-c: #D9E5E1;
     --orange-c: #B55B27;
     --gray-c: #7B8A85;
     --green-c: #184537;
-}
+}   
 *{
     margin: 0;
     padding: 0;
