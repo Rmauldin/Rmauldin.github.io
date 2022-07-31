@@ -12,6 +12,9 @@
     background-color: var(--dark-green-c);
     color: var(--white-c);
 }
+*:hover{
+    transition: 0.3s;
+}
 
 .navbar{
     color: var(--white-c);
@@ -30,3 +33,4 @@
 a .active{
     color: var(--white-c);
 }
+

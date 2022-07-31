@@ -1,55 +1,66 @@
-- title: LensRSS
-  description: "A news aggregator Android app that pulls articles from RSS feeds and analyzes prolical leaning, subjectivity, and polarity."
+- title: Suite of Matterport Examples
+  description: > 
+    These are hosted Matterport SDK examples that demonstrate methods and capabilities of the Javascript library.
+    These are a part of the demos on the Matterport SDK website. They serve as inspiration and a 
+    starting point for inquiring developers.
+  image: "tag_placer.png"
   technologies:
-    - tech: Keras
-    - tech: Flask
-    - tech: Heroku
+    - tech: Matterport SDK
+    - tech: Typescript
+    - tech: Javascript
+    - tech: Webpack
   links:
       - title: Github
-        url: "https://github.com/Rmauldin/LensRSS"
-        icon: "static/icons/github_icon.svg"
-      - title: "Google Play"
-        url: "https://play.google.com/store/apps/details?id=com.lensrss.ryan.newsviewer&hl=en_CA"
-        icon: "static/icons/arrow_icon.svg"
+        url: "https://github.com/Rmauldin/matterport"
+        icon: "github_icon.svg"
+      - title: "Matterport SDK Site"
+        url: "https://matterport.github.io/showcase-sdk/sdk_examples_summary.html"
+        icon: "arrow_icon.svg"
 
 - title: LensRSS
-  description: "A news aggregator Android app that pulls articles from RSS feeds and analyzes prolical leaning, subjectivity, and polarity."
+  description: > 
+    A news aggregator Android app that pulls articles from RSS feeds and analyzes prolical leaning, subjectivity, and polarity. 
+    Articles are sent to a Flask server with a pre-trained Keras model that evaluates the content of the article for its political leaning.
+  image: "lensrss.png"
   technologies:
+    - tech: Android Studio
+    - tech: Java
     - tech: Keras
     - tech: Flask
-    - tech: Heroku
   links:
       - title: Github
         url: "https://github.com/Rmauldin/LensRSS"
-        icon: "static/icons/github_icon.svg"
+        icon: "github_icon.svg"
       - title: "Google Play"
         url: "https://play.google.com/store/apps/details?id=com.lensrss.ryan.newsviewer&hl=en_CA"
-        icon: "static/icons/arrow_icon.svg"
+        icon: "arrow_icon.svg"
 
-- title: LensRSS
-  description: "A news aggregator Android app that pulls articles from RSS feeds and analyzes prolical leaning, subjectivity, and polarity."
+- title: Moon Beat
+  description:  >
+    A collaborative Github Game Off 2020 Entry. This is a basic beat game that utilizes expert level .chart files
+    to spawn notes for the player to time button presses.
   technologies:
-    - tech: Keras
-    - tech: Flask
-    - tech: Heroku
+    - tech: Unity
+    - tech: C#
+  image: "moonbeat.png"
   links:
       - title: Github
-        url: "https://github.com/Rmauldin/LensRSS"
-        icon: "static/icons/github_icon.svg"
-      - title: "Google Play"
-        url: "https://play.google.com/store/apps/details?id=com.lensrss.ryan.newsviewer&hl=en_CA"
-        icon: "static/icons/arrow_icon.svg"
+        url: "https://github.com/cjabs1997/Moon-Beat"
+        icon: "github_icon.svg"
+      - title: "Itch.io"
+        url: "https://itch.io/jam/game-off-2020/rate/839340"
+        icon: "arrow_icon.svg"
 
-- title: LensRSS
-  description: "A news aggregator Android app that pulls articles from RSS feeds and analyzes prolical leaning, subjectivity, and polarity."
+- title: Discord Analytics Bot
+  description: >
+    A Discord bot that tracks chat analytics, such as emoji usage, and provides chart information via chat commands or a 
+    database file.
+  image: "discordbot.png"
   technologies:
-    - tech: Keras
-    - tech: Flask
-    - tech: Heroku
+    - tech: Python
+    - tech: SQL
+    - tech: discord.py
   links:
       - title: Github
-        url: "https://github.com/Rmauldin/LensRSS"
-        icon: "static/icons/github_icon.svg"
-      - title: "Google Play"
-        url: "https://play.google.com/store/apps/details?id=com.lensrss.ryan.newsviewer&hl=en_CA"
-        icon: "static/icons/arrow_icon.svg"
+        url: "https://github.com/Rmauldin/discord_analytics"
+        icon: "github_icon.svg"

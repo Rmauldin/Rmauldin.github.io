@@ -1,19 +1,24 @@
-<div class="container">
+<div class="container projects-container">
   <h2 class="section-title text-center">Projects</h2>
-  <div class="row row-cols-2 row-cols-lg-4">
+  <div class="row row-cols-1 row-cols-lg-2">
     {% for project in site.data.projects %}
       <div class="col mt-4 mb-4">
         <div class="card">
           <h3>{{ project.title }}</h3>
+          {% if project.image %}
+            <img class="img-thumbnail" src="{{project.image | prepend: 'static/img/projects/'}}" alt="{{project.title}}" />
+          {% endif %}
           <p>{{ project.description }}</p>
           <ul>
             {% for tech in project.technologies %}
-              <li>{{ tech.tech }}</li>
+              <li class="project-technology">{{ tech.tech }}</li>
             {% endfor %}
           </ul>
-          <ul>
+          <ul class="project-link-icons">
             {% for link in project.links %}
-              <a href="{{ link.url }}"><img src="{{ link.icon }}" alt="{{ link.title }}" /></a>
+              <a href="{{ link.url }}" class="project-link-icon" target="_blank">
+                {% include {{ link.icon | prepend: "icons/"}} %}
+              </a>
             {% endfor %}
           </ul>
         </div>

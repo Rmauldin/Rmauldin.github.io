@@ -1,3 +1,6 @@
+.work-container{
+    max-width: 65vw;
+}
 .work-title{
     width: 100%;
     font-family: "Roboto Mono", sans-serif;

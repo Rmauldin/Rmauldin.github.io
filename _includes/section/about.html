@@ -1,4 +1,49 @@
-<div class="row">
-    <h1>About</h1>
-    <img src="{{ about.picture }}" />
+<div class="container">
+  <h2 class="section-title" id="about-title">About Me</h2>
+  <div class="row">
+    <div class="col-5">
+      <img id="pic-me" class="img-fluid" src="{{ site.data.about.picture }}" alt="Picture of Ryan"/>
+    </div>
+    
+    <div class="col">
+      <h2 id="about-hello">{{site.data.about.title}}</h2>
+      <p>{{ site.data.about.summary }}</p>
+      <!-- <div class="row">
+        <div class="col-3">
+          <span>Languages</span>
+          <ul class="list-group about-list">
+          {% for language in site.data.about.languages %}
+            <li><p>{{ language }}</p></li>
+          {% endfor %}
+          </ul>
+        </div>
+        <div class="col-9">
+          <span>Technologies</span>
+          <ul class="list-group about-list" >
+            {% for tech in site.data.about.technologies %}
+              <li><p>{{ tech }}</p></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div> -->
+      <div class="skill-container">
+        <div class="language-container">
+          <span>Languages:</span>
+          <ul>
+            {% for language in site.data.about.languages %}
+              <li><p>{{ language }}</p></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="tech-container">
+          <span>Technologies:</span>
+          <ul>
+            {% for tech in site.data.about.technologies %}
+              <li><p>{{ tech }}</p></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

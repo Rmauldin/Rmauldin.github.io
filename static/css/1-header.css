@@ -1,37 +1,48 @@
 #logo{
-    border: .1em solid var(--orange-c);
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-    line-height: 1em;
-    padding: .4em;
-    color: var(--orange-c);
-    font-size: 1.5em;
-    font-family: 'Roboto', sans-serif;
-    font-style: bold;
+  border: .1em solid var(--orange-c);
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  line-height: 1em;
+  padding: .4em;
+  color: var(--orange-c);
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
 }
 #logo:hover{
-    color: var(--white-c);
-    border-color: var(--white-c);
+  color: var(--white-c);
+  border-color: var(--white-c);
 }
 #bootstrap-override .nav-item{
-    color: var(--white-c);
-    margin-left: 1.2em;
-    margin-right: 1.2em;
-    align-self: flex-end;
+  color: var(--white-c);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+#bootstrap-override .nav-item, .show > ul:first-child{
+  float: left;
+}
+#bootstrap-override .nav-item, .show > ul:last-child{
+  float: right;
+}
+#bootstrap-override .nav-item, .collapsing > ul:first-child{
+  float: left;
+}
+#bootstrap-override .nav-item, .collapsing > ul:last-child{
+  float: right;
 }
 #bootstrap-override .nav-item:hover{
-    color: var(--orange-c);
+  color: var(--orange-c);
 }
-.icon{
-    width: 1.5em;
-    height: 1.5em;
+.icon > svg > * > *{
+  color: var(--gray-c);
+}
+.icon:hover > svg > * > *{
+  color: var(--orange-c);
 }
 #navbar-static{
-    position: static;
-    top: 0;
-}
-.navbar-collapse{
-    
+  border-bottom: 1px solid var(--green-c);
+  -webkit-box-shadow: 0px 8px 15px -6px rgba(0,0,0,0.5); 
+  box-shadow: 0px 8px 15px -6px rgba(0,0,0,0.5);
 }

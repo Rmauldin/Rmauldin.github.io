@@ -21,9 +21,10 @@
 title: Ryan Mauldin
 email: ryant.mauldin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Ryan Mauldin is a software engineer located in the California Bay Area. Ryan's always had
+  an interest in software technologies and frequently pursues independent projects. With interests
+  in automation, software design, and 3D development, Ryan is open to opportunities with companies
+  that will foster professional growth and recognize a strong contributor.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://rmauldin.github.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Rmauldin

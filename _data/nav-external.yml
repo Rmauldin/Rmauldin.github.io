@@ -1,0 +1,9 @@
+- title: Github
+  icon: github_icon.svg
+  link: https://github.com/Rmauldin
+- title: LinkedIn
+  icon: linkedin_icon.svg
+  link: https://www.linkedin.com/in/ryantmauldin
+- title: Email
+  icon: mail_icon.svg
+  link: "&#109;&#97;&#105;&#108;&#116;&#111;&#58;%72%79%61%6E%74%2E%6D%61%75%6C%64%69%6E%40%67%6D%61%69%6C%2E%63%6F%6D"

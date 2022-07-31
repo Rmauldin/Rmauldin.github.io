@@ -1,0 +1,68 @@
+#about-title{
+    margin-bottom: 2.8rem;
+}
+#about-hello{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: var(--orange-c);
+    font-size: 1.5rem;
+}
+
+#pic-me{
+    width: 25rem;
+    height: auto;
+    box-shadow: -25px 25px 0 var(--green-c);
+}
+
+.skill-container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.skill-container > div > ul {
+    margin-top: 1.3rem;
+    list-style: none;
+}
+.skill-container > *{
+    list-style: none;
+    line-height: 2;
+}
+.skill-container > div > ul > li {
+    margin-left: .8rem;
+    margin-right: .8rem;
+}
+.skill-container > div > ul > li > p{
+    font-family: "Roboto", monospace;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: .5rem;
+    color: var(--gray-c);
+}
+.skill-container > div > ul li::before{
+    content: "";
+    color: var(--orange-c);
+    display: block;
+    width: .1667rem;
+    margin-bottom: -1.3rem;
+    margin-left: -1rem;
+    height: .5rem;
+    width: .5rem;
+    border-right: .1833rem solid var(--orange);
+    border-bottom: .1833rem solid var(--orange);
+    transform: rotate(-45deg);
+}
+.skill-container > div > *{
+    /* max-height: 14rem; */
+    display: flex;
+    flex-flow: column wrap;
+}
+.skill-container > div{
+    margin-right: .3rem;
+    margin-left: .3rem;
+}
+.skill-container .language-container{
+    flex: 0 35%;
+}
+.skill-container .tech-container{
+    flex: 0 55%;
+}
+

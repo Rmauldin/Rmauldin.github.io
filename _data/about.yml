@@ -1,0 +1,25 @@
+title: "Hi! I'm Ryan"
+
+summary: > 
+        Since my younger years, I’ve always been interested in software technologies and 
+        their application to everyday life. I frequently pursue independent projects and 
+        also engage in the occasional game jam.
+        <br />
+        <br />
+        With interests in automation, software design, and 3D development, I'm open to opportunities with 
+        companies that foster professional growth in these areas and will recognize 
+        a strong contributor.
+
+picture: "static/img/me.jpg"
+
+languages:
+- Python
+- Typescript
+- Javascript
+- SQL
+
+technologies:
+- React
+- Django
+- Git
+- Linux Environments
