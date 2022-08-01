@@ -1,20 +1,23 @@
 <footer>
-  <nav class="navbar navbar-dark navbar-expand-lg" id="footer">
-    <div class="text-center">
-      &copy;
-      <span id="copyright">
-        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-      </span>
-      Ryan Mauldin
-    </div>
-    <ul class="navbar-nav ml-5">
-      {% for nav-item in site.data.nav-external %}
-      <li class="nav-item">
-        <a class="nav-link" href={{nav-item.link}} target="_blank">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        {% for nav-item in site.data.nav-external %}
+        <div class="footer-link">
+          <a class="link-primary mr-2 ml-2" href={{nav-item.link}} target="_blank">
           {{nav-item.title}}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </nav>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+      <div>
+        &copy;
+        <span id="copyright">
+          <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        </span>
+        - Ryan Mauldin
+      </div>
+      <div>
+        Design by <a class="link-primary" href="https://www.kelseyolivier.com/" target="_blank">Kesley Olivier</a>
+      </div>
+    </div>
 </footer>

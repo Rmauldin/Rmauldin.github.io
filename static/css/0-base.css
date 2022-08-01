@@ -1,36 +1,39 @@
 :root{
-    /* Colors */
-    --dark-green-c: #01261B;
-    --white-c: #D9E5E1;
-    --orange-c: #B55B27;
-    --gray-c: #7B8A85;
-    --green-c: #184537;
+  /* Colors */
+  --dark-green-c: #01261B;
+  --white-c: #D9E5E1;
+  --orange-c: #B55B27;
+  --gray-c: #7B8A85;
+  --green-c: #184537;
 }   
 *{
-    margin: 0;
-    padding: 0;
-    background-color: var(--dark-green-c);
-    color: var(--white-c);
+  margin: 0;
+  padding: 0;
+  background-color: var(--dark-green-c);
+  color: var(--white-c);
 }
 *:hover{
-    transition: 0.3s;
+  transition: 0.3s;
 }
 
 .navbar{
-    color: var(--white-c);
+  color: var(--white-c);
 }
 
 .text-highlight{
-    color: var(--orange-c);
+  color: var(--orange-c);
 }
 .section-title{
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-size: 2.25rem;
-    margin: 10px 0 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 10px 0 10px 0;
 }
 /* bootstrap overrides */
 a .active{
-    color: var(--white-c);
+  color: var(--white-c);
 }
 
+.link-primary{
+  color: var(--gray-c);
+}

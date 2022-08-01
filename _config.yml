@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   in automation, software design, and 3D development, Ryan is open to opportunities with companies
   that will foster professional growth and recognize a strong contributor.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://rmauldin.github.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rmauldin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Rmauldin
 
 # Build settings
