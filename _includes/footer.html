@@ -1,23 +1,21 @@
 <footer>
-    <div class="container text-center">
-      <div class="row justify-content-center">
-        {% for nav-item in site.data.nav-external %}
-        <div class="footer-link">
-          <a class="link-primary mr-2 ml-2" href={{nav-item.link}} target="_blank">
-          {{nav-item.title}}
-          </a>
-        </div>
-        {% endfor %}
+  <div class="container text-center pt-3 pb-3" id="footer">
+    <div class="row justify-content-center">
+      {% for nav-item in site.data.nav-external %}
+      <div class="footer-link">
+        <a class="link-primary mr-2 ml-2" href={{nav-item.link}} target="_blank">{{nav-item.title}}</a>
       </div>
-      <div>
-        &copy;
-        <span id="copyright">
-          <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-        </span>
-        - Ryan Mauldin
-      </div>
-      <div>
-        Design by <a class="link-primary" href="https://www.kelseyolivier.com/" target="_blank">Kelsey Olivier</a>
-      </div>
+      {% endfor %}
     </div>
+    <div>
+      &copy;
+      <span id="copyright">
+        <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+      </span>
+      - Ryan Mauldin
+    </div>
+    <div>
+      Design by <a class="link-primary" href="https://www.kelseyolivier.com/" target="_blank">Kelsey Olivier</a>
+    </div>
+  </div>
 </footer>
