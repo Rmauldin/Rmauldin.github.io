@@ -2,31 +2,33 @@
   company: Matterport
   time: December 2021 - July 2022
   duties:
-    - duty: "Serve as an expert on the Matterport API & SDK capabilities and help developers, partners, customers of all sizes and expertise leverage the power of Matterport's developer tools"
-    - duty: "Create examples, sample apps, templates, demos, and tools to help support the Matterport developer community"
-    - duty: "Identify and implement code for tutorials that will exemplify how to best use the Matterport API & SDKs"
-    - duty: "Contribute technical expertise to technical documentation and articles of newly released features"
-    - duty: "Contribute technical expertise to presentations and trainings"
-    - duty: "Collect and distill feedback from developers to improve the platform"
-    - duty: "Provide 1:1 technical support to platform partners"
+    - duty: "Served as an expert on the Matterport GraphQL API & Javascript SDK capabilities to help hundreds of developers, partners, customers of all sizes and expertise leverage the power of Matterport's developer tools"
+    - duty: "Conducted and created technical trainings on newly-released tools to internal Sales and Business Development teams"
+    - duty: "Created examples, sample apps, templates, demos, and tools to help support the Matterport developer community"
+    - duty: "Identified and implemented code for tutorials that exemplified best use of Matterport API & SDKs"
+    - duty: "Contributed technical expertise to technical documentation and articles of newly released features"
+    - duty: "Collected and distilled feedback from developers to internal development teams to improve the platform"
+    - duty: "Provided 1:1 technical support to platform partners"
 
 - title:  Support Engineer
   company:  Matterport
   time:     September 2020 - December 2021
   duties:
-    - duty: "Provide support for customers with API and SDK issues by debugging and providing example applications and code"
-    - duty: "Automate Customer Support team workflows to improve support queue times"
-    - duty: "Triage technical issues and escalate to product or engineering teams"
-    - duty: "Contribute to the creation of department procedures and processes"
-    - duty: "Assist with repairing customer models through CLI backend tools and services"
+    - duty: "Established duties for the Developer Support Engineer based upon internal, customer, and partner needs"
+    - duty: "Implemented tools and established processes to help scale the API/SDK support resources for thousands of SMB and Enterprise customer and partner developers"
+    - duty: "Assisted customers and key enterprise clients with developer tool integrations, technical requests, and application debugging"
+    - duty: "Served as a technical resource for customer success, product, sales engineering, and business development teams"
+    - duty: "Manage access to thousands of SDK keys and API tokens"
+    - duty: "Triaged SAML-based SSO setup issues with enterprise clients"
+    - duty: "Identified, reproduced, and escalated reported software bugs"
 
 - title:    API/SDK Customer Support Specialist
   company:  Matterport
   time:     Jan 2020 - September 2020
   duties: 
-    - duty: "Assist customers with a variety of API/SDK issues including installing, configuring, and debugging customer applications"
-    - duty: "Automate Customer Support team workflows to improve support ticket queue times"
-    - duty: "Build sample Matterport applications that highlight the value of Matterport's API and SDK"
-    - duty: "Manage technical issues escalated to the development and product management teams"
-    - duty: "Contribute to the creation of department procedures and processes"
+    - duty: "Worked directly with Matterport customers to assist with basic and complex API/SDK issues that include installation, configuration, and debugging of customer applications using Matterport’s programming interfaces"
+    - duty: "Automated Customer Support team workflows to improve support ticket queue times"
+    - duty: "Built sample Matterport applications that highlight the value of Matterport’s API and SDK"
+    - duty: "Managed technical issues escalated to the development and product management teams"
+    - duty: "Contributed to the creation of Support department procedures and processes"
     
