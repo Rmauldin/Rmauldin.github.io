@@ -19,8 +19,8 @@
 
 - title: LensRSS
   description: > 
-    A news aggregator Android app that pulls articles from RSS feeds and analyzes prolical leaning, subjectivity, and polarity. 
-    Articles are sent to a Flask server with a pre-trained Keras model that evaluates the content of the article for its political leaning.
+    A news aggregator Android app that pulls articles from RSS feeds and analyzes political leaning, subjectivity, and polarity. 
+    Articles are sent to a Flask server with a pre-trained Keras model that evaluates the content of the article for its political biases.
   image: "lensrss.png"
   technologies:
     - tech: Android Studio
